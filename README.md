@@ -1,2 +1,2 @@
 # SLU
-Self Learns Unite
+Self Learners Unite
