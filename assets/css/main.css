@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #23142b;;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: rgb(199 185 205);
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -121,7 +121,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #777;
+		color: rgb(139 139 139);
 		font-weight: 700;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color:  rgb(152 140 171);
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -201,9 +201,9 @@ input, select, textarea {
 	}
 
 	code {
-		background: #555;
+		background: rgb(139 139 139);
 		border-radius: 5px;
-		color: #fff;
+		color: rgb(139 139 139);
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1785,12 +1785,12 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #752b32;
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color:  rgb(152 140 171);
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -2700,7 +2700,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #49181d;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px rgb(207, 92, 92);
 					display: block;
 					padding: 0;
 				}
@@ -2807,8 +2807,8 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: #eabd59;
+							color: #A3333D !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2824,8 +2824,12 @@ input, select, textarea {
 
 /* Main */
 
+	#main{
+		background-color: #23142b;
+	}
+
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #322243;
 	}
 
 		#main > section > .container {
@@ -2839,9 +2843,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: #130a1d;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #817d85;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
@@ -3154,6 +3158,7 @@ input, select, textarea {
 
 			header.major h2 {
 				font-size: 2.5em;
+				color: #49181d;
 			}
 
 				header.major h2 + p {
