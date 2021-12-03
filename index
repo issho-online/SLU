@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+  Read Only by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Self Learners Unite</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+
+    <!-- Header -->
+    <section id="header">
+      <header>
+        <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+        <h1 id="logo"><a href="#">Self Learners Unite</a></h1>
+        <p>A place to find Resources to help </br> Self-Learners</p>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#one" class="active">About</a></li>
+          <li><a href="#two">Resources</a></li>
+          <li><a href="#three">Learning Tips</a></li>
+          <li><a href="https://github.com/issho-online/SLU/wiki/Contribution-Guide" target="_blank">Contribute</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Main -->
+      <div id="main">
+
+        <!-- One -->
+        <section id="one">
+          <div class="image main" data-position="center">
+            <img src="images/banner.jpg" alt="" />
+          </div>
+          <div class="container">
+            <header class="major">
+              <h2>Self Learners Unite</h2>
+              <p>Here you will find a plethora</br> of resources and tips that are </br>
+                catered to helping you self learn code.</p>
+            </header>
+            <p>Self Learning does not have to be hard. By utilizing free</br>
+              resources online, proper time management, and quality</br>
+              learning methods, it can be easy to learn code on your own</p>
+          </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two">
+          <div class="container">
+            <h3>Resources</h3>
+            <p>Here you can find Free and Paid Resources that can help you in the tech industry of your choice</p>
+            <ul class="feature-icons">
+              <li class="icon solid fa-code"><a href=code.html>Code</a></li>
+              <li class="icon solid fa-book"><a href=books.html>Books</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three">
+          <div class="container">
+            <h3>Learning Tips</h3>
+            <p>Here you can find a place to learn how to learn :)</p>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container">
+          <ul class="copyright">
+            <li>&copy; Self Learners Unite. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
