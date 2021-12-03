@@ -6,3 +6,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+.welcome {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
