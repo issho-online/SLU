@@ -10,9 +10,43 @@
 body {
   min-height: 100vh;
 }
-.welcome {
+/* Took a mobile first approach
+ * so the following CSS applies to
+ * Mobile phones*/
+.container {
   height: 100vh;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
   justify-content: center;
   align-items: center;
+  border: 3px solid green;
+}
+.welcome p {
+  text-align: justify;
+}
+.navHome {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid red;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 800px) {
+  .welcome {
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+  }
+  .welcome h1 {
+    padding: 10px;
+  }
 }
