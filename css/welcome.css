@@ -40,6 +40,8 @@ body {
   list-style-type: none;
 }
 
+/* The following code is applied 
+ *to screens *00px and wider */
 @media screen and (min-width: 800px) {
   .welcome {
     flex-direction: row;
